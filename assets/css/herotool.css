@@ -1,0 +1,121 @@
+
+body{
+    background: linear-gradient(to right, #fff 50%, #5D37A2 50%);
+
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 32px 165px;
+
+}
+
+.header img{
+    display: block;
+    max-width: 100%;
+
+}
+
+.bruce a{
+color: var(--neutral-white, #FFF);
+font-family: 'Roboto', sans-serif;
+text-align: right;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+text-decoration: none;
+}
+
+
+.bruce{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding-left:720px;
+}
+
+.bruce img{
+    border-radius: 50%;
+}
+
+.icons{
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.back{
+    width: 800px;
+    height: 1024px;
+}
+
+.back img{
+    width: 656px;
+    height: 390px;
+
+}
+
+
+.text{
+    width: 580px;
+}
+
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    line-height: 81px; /* 101.25% */
+    letter-spacing: -0.9px;
+}
+.text h6{
+    margin-top: 24px;
+    margin-bottom:32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:1;
+    line-height: 32px; /* 160% */
+}
+
+.btn{
+    background-color: #5D37A2 ;
+    color: #fff;
+    border-radius: 3px;
+    width: 217px;
+    height: 56px;
+    padding: 16px 72px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 139.13% */
+   
+
+}
+
+.pink{
+    color: #DD5498;
+}
+
+.green{
+    color: #44D2A8;
+}
+
+.blue{
+    color: #5A9CFE;
+
+}
+
+.text-back{
+    display: flex;
+    margin: 162px 10px 323px 165px;
+    gap: 250px;
+
+}
